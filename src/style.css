@@ -6,6 +6,12 @@
   font-family: 'Nunito Sans';
 }
 
+.home{
+  width: 100%;
+  max-width: 1259px;
+  margin: 0 auto;
+}
+
 /* secao desconto */
 .desconto {
   background-color: #005CFF;
@@ -54,16 +60,8 @@
   margin-bottom: 23px;
 }
 
-.home__navbar__logo{
-  
-  width: 152.58px;
-  height: 27.08px;
-}
-
-.home__navbar__logo img{
-  max-width: 15%;
-  height: 95%;
-  
+.home__navbar__pesquisa__logo{
+  width: 16%;
 }
 
 .home__navbar__pesquisa{
@@ -149,5 +147,192 @@
   
 }
 
+@media (max-width: 390px) {
+  .home__navbar__carrinho__usuario{
+    display: none;
+  }
+  .menu__categorias__opcoes__departamentos{
+    flex-direction: column;
+  }
+  .menu__categorias__opcoes span{
+    display: none;
+  } 
+}
 
+.home__navbar__pesquisa{
+  
+}
 /* secao homemenu*/
+
+.menu__categorias{
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  display: flex;
+  gap: 45px;
+  margin-bottom: 18px;    
+}
+
+.menu__categorias__opcoes{
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 22px;
+  cursor: pointer;
+}
+
+.menu__categorias__opcoes img{
+  height: 10px;
+  width: 14px;
+  margin: 6px 6px 11px 0;
+}
+
+.menu__categorias__opcoes__departamentos {
+  display: flex;
+  gap: 45px;
+  
+}
+
+/*carrocel*/
+.carousel-indicators {
+  display: none !important;
+}
+
+.carousel-indicators button {
+  width: 7px !important;
+  height: 7px !important;
+  border-radius: 50% !important;
+  background-color: #000 !important;
+  margin: 0 3.5px 0 3.5px !important  ;
+  
+}
+
+.carousel-indicators{
+  margin-bottom: 0rem !important;
+}
+
+.carousel-indicators [data-bs-target]{
+  border-top: 7px solid transparent !important;
+  border-bottom:  7px solid transparent !important;
+}
+
+.carousel-indicators .active {
+  
+  background-color: #333 !important;
+}
+
+.carrocel{
+  background-color: #E7E7EA;
+  height: 510px;
+}
+
+.carrocel__imagem{
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+}
+
+.carrocel__imagem #Cadeira{
+  background-image: url(../public/image/cadeiracomroupa.png);
+  width: 660px;
+  height: 510px;
+  background-size: cover;
+  margin-left: 100px;   
+}
+
+.carrocel__imagem #Supersale{
+
+  transform: scale(0.74);
+  transform-origin: left; 
+  background-image: url(../public/image/descontosupersale.png);
+  width: 700px;
+  height: 280px;
+  background-size: cover;
+    
+}
+
+@media (max-width: 390px) {
+  .carousel-indicators {
+    display: flex !important;
+  }
+  
+
+  .carrocel{
+
+    height: 306px;
+    justify-content: left;
+  }
+  
+  .carrocel__imagem #Cadeira{
+    width: 210px;
+    height: 306px;
+    background-image: url(../public/image/mobilecadeiracomroupa.png);
+    background-size: cover;
+    margin-left: 0; 
+  }
+
+  .carrocel__imagem #Supersale{
+   
+    background-image: url(../public/image/mobiledescontosupersale.png);
+    transform: scale(0.74);
+    background-repeat: no-repeat;
+    width: 180px;
+    height: 215px;
+  }
+  
+
+}
+
+/*Items compra carrossel*/
+.lancamentos{
+  width: 1288.4;
+ 
+}
+
+
+
+@media (max-width: 390px) {
+  .lancamentos{
+    width: 358px;
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+
+  
+  .lancamentos__topo__vermais {
+    color: #000;
+    font-size: 14px;
+    margin-right: 6px;
+   
+    
+  }
+  .lancamentos__topo__lancamentos {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  .lancamentos__topo {
+    font-weight: 700;
+    margin-top: 56px;
+    margin-bottom: 16px;
+  }
+
+  .lancamento__item{
+    border: #DDDDDD 1px solid;
+    border-radius: 10px;
+    width: 174px;
+    height: 365px;
+  }
+  .lancamento__items{
+    gap: 10px;
+  }
+  .lancamento__item__imagem span{
+    padding: 6px;
+   
+    font-size: 10px;
+    font-weight: 700;
+    background-color: #00264E;
+    border-radius: 4px;
+    color: #FFFFFF;
+    
+  }
+}
+/*Items compra carrossel*/
