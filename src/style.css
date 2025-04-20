@@ -281,6 +281,7 @@
 .carrocel{
   background-color: #E7E7EA;
   height: 510px;
+  margin-bottom: 96px;
 }
 
 .carrocel__imagem{
@@ -344,7 +345,7 @@
 .lancamentos{
   width: 1259px;
   margin: 0 auto;
-  margin-top: 96px;
+  
   
 }
 
@@ -765,3 +766,720 @@ color: #000000;
 }
 /*Items compra carrossel*/
 
+/* secao banner caneca */
+.banner__caneca{
+  width: 1177px;
+  height: 747px;
+  margin: 0 auto;
+  margin-top: 96px;
+  display: flex;
+  gap: 37.5px;
+  margin-bottom: 55px;
+}
+.banner__caneca__fundo{
+  background-color: #C2C2C2;
+  width: 652px;
+  height: 747px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.banner__caneca__img{
+  width: 523.38px;
+  height: 528.17px;
+}
+
+.banner__caneca__mobile{
+  margin-top: 53px;
+  display: none;
+}
+
+.banner__caneca__texto{
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  gap:22px;
+  
+}
+.banner__cabeca__texto__titulo{
+
+  font-family: "Nunito", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 140%;
+  
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+
+  color: #000000;
+
+
+}
+
+.banner__caneca__texto p{
+  
+font-family: 'Nunito';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 140%;
+
+letter-spacing: 0.05em;
+
+color: #000000;
+
+
+
+}
+@media (max-width: 390px) {
+  .banner__caneca__mobile{
+    margin-top: 56px;
+    display: block;
+  }
+  .banner__caneca{
+    display: none;
+  }
+  .banner__caneca__mobile img{
+    width: 100%;
+    height: 100%;
+  }
+  .banner__caneca__mobile__texto{
+    margin-top: 38px;
+    margin-left: 24px;
+    margin-right: 24px;
+    margin-bottom: 42px;
+  }
+  .banner__cabeca__mobile__texto__titulo{
+  
+    font-family: "Nunito", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 140%;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  
+  color: #000000;
+  margin-bottom: 18px;
+  
+  
+  
+  }
+  
+  .banner__caneca__mobile__texto p{
+  
+    font-family: "Nunito", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+  
+  letter-spacing: 0.05em;
+  
+  color: #000000;
+  
+  
+  }
+}
+
+/*baner legumes*/
+
+.banner__legumes{
+  background-color: #DEDEDE;
+  padding-top: 41px;
+  padding-bottom: 49.86px;
+}
+
+.banner__legumes__items{
+  width: 1177px;
+  height: 728.14px;
+  margin: 0 auto;
+  display: flex;
+  gap :49px ;
+  
+}
+
+.banner__legumes__texto__descricao{
+  display: flex;
+  
+}
+
+.banner__legumes__texto__descricao img{
+  width: 90px;
+  height: 90px;
+  margin-right: 20px;
+}
+
+.banner__legumes__texto__descricao p{
+
+  font-family: "Nunito", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+  letter-spacing: 0.05em;
+
+  color: #4F4F4F;
+
+
+}
+.banner__legumes__texto__titulo{
+  text-align: center;
+ 
+  font-family: "Nunito", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 140%;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+
+  color: #4F4F4F;
+
+
+}
+
+.banner__legumes__texto{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+.banner__legumes__mobile{
+ display: none;
+
+}
+@media (max-width: 390px) {
+  .banner__legumes{
+    display: none;
+  }  
+
+  .banner__legumes__mobile__legumes__img{
+    width: 349px;
+    height: 349px;
+    margin-top: 28px;
+    margin-left: 21px;
+    margin-right: 21px;
+    margin: 28px 21px 21px 21px;
+  }
+
+  .banner__legumes__mobile{
+    background-color: #DEDEDE;
+    display: block;
+  }
+  .banner__legumes__mobile h1{
+    
+    font-family: "Nunito", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 140%;
+    text-align: center;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+
+    color: #000000;
+  }
+
+  .banner__legumes__mobile__texto{
+    margin: 19px 21px 0 21px;
+    padding-bottom: 8px;
+  }
+  .banner__legumes__mobile__texto__descricao{
+    display: flex;
+    gap: 14px;
+  }
+
+  .banner__legumes__mobile__texto__descricao img{
+    width: 60px;
+    height: 60px;
+  }
+
+  .banner__legumes__mobile__texto__descricao P{
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 140%;
+
+    letter-spacing: 0.05em;
+
+    color: #000000;
+  }
+
+
+
+
+}
+#carouselExampleCaptionss > div:nth-child(2){
+  position: relative ;
+  padding-top: 10px !important;
+}
+/*chamado*/
+
+.chamado {
+  background-image: url(../public/image/avantichamado.png);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 660px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 60px;  
+}
+
+.chamado div{
+  
+  
+  background-color: #005CFF;
+  height: 132px;
+  width: 100%; 
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.chamado span{
+
+font-family: "Nunito", sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 140%;
+
+margin: 0 auto;
+
+color: #FFFFFF;
+
+
+}
+
+@media  (max-width: 390px) {
+  .chamado {
+    background-image: url(../public/image/avanitichamadomobile.png);
+   
+
+    height: 449px;
+
+  }
+  .chamado div{
+    height: 75px;
+    
+    
+  }
+  .chamado span{
+    font-size: 16px;
+    line-height: 140%;
+    margin: 0 auto;
+    padding: 0 20px;
+    
+  }
+/*chamado*/
+}
+
+/*cadastro*/
+
+.cadastro{
+  margin-top: 56px;
+  margin-bottom: 40px;
+}
+
+.cadastro__header{
+
+font-family: 'Nunito Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 27px;
+text-align: center;
+color: #000000;
+margin-bottom: 24px;
+
+}
+
+
+.cadastro__header span{
+  color: #005CFF;
+}
+
+.cadastro__input__texto{
+  width: 280px;
+  height: 48px;
+  border-radius: 8px;
+  border-style: none;
+  padding-left: 24px;
+}
+
+.cadastro__container{
+ width: 1260px;
+ height: 176px;
+ background-color: #DEDEDE;
+ border-radius: 8px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ gap: 24px;
+ margin: 0 auto;
+}
+
+.cadastro__botao{
+
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+
+
+  width: 121px;
+  height: 48px;
+  background-color: #005CFF;
+  color: #FFFFFF;
+  border-radius: 8px;
+}
+
+#termos{
+  border: none;
+  outline: none;
+  appearance: none; 
+  width: 16px;
+  height: 16px;
+  background-color: #F5F5F5;
+  border-radius: 4px;
+  cursor: pointer;
+  
+  
+ 
+}
+
+.cadastro__input__termos{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.cadastro__input__termos label{
+
+font-family: 'Nunito Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 12px;
+line-height: 16px;
+
+
+color: #656565;
+
+
+
+
+}
+
+@media (max-width: 390px) {
+
+  .cadastro{
+    margin-top: 24px;
+    margin-bottom: 24px;
+  }
+
+  .cadastro__header{
+    font-size: 16px;
+    line-height: 22px;
+    margin-bottom: 16px;
+  }
+
+  .cadastro__container{
+    width: 358px;
+    height: 284px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    background-color: #F5F5F5;
+  }
+  
+  .cadastro__input__texto{
+    width: 326px;
+    height: 48px;
+    
+  }
+
+  .cadastro__botao{
+    width: 326px;
+    height: 48px;
+  }
+  
+  #termos{
+    background-color: #FFFFFF;
+    border: 1px solid #DDDDDD;
+  }
+}
+/*cadastro*/
+
+/* footer */
+.footer__container{
+  width: 100%;
+  height: 386px;
+  background-color: #F5F5F5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 64px;
+  margin-bottom: 40px;
+}
+
+.footer__pagamentos img{
+  transform: scale(0.5);
+}
+.footer__topo{
+  display: flex;
+  gap: 110px;
+  /*ajeitar aqui os icones auzl*/
+ 
+  
+}
+
+.footer__logo div{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 220px;
+  margin-top: 15px;
+}
+
+
+.footer__logo div img{
+  transform: scale(0.5);
+}
+#LogoFooter{
+  transform: scale(0.5);
+  transform-origin: left center;
+  margin-left: 10px;
+}
+
+
+.footer__topo h4{
+ 
+font-family: 'Nunito Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 19px;
+margin-top: 11px;
+margin-bottom: 11px;
+color: #000000;
+
+
+}
+
+.footer__topo h5{
+
+
+
+font-family: 'Nunito Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 28px;
+
+
+color: #303030;
+margin-bottom: 0;
+
+}
+
+#FonteHorarioSize{
+  font-size: 12px;
+}
+
+/* footer copy*/
+
+.footer__copy p{
+  
+
+
+font-family: 'Nunito Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 20px;
+
+text-align: center;
+
+
+color: #303030;
+width: 1074px;
+margin: 0 auto;
+
+}
+
+.footer__parceiro{
+  transform: scale(0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 92px;
+  margin-top: 30px;
+  margin-bottom: 63px;
+}
+.footer__parceiro div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 46px;
+}
+#SetaAzul{
+  display: none;
+}
+
+#FooterDireitosMobile{
+  display: none;
+}
+
+@media (max-width: 390px) {
+  .footer__container{
+    width: 100%;
+    height: 100%;
+    padding-top: 20px;
+    gap: 24px;
+  }
+  
+ 
+  .footer__topo{
+    flex-direction: column;
+    gap: 0;
+    width: 100%;
+   
+    /* opcional, só pra garantir */
+   
+    justify-content: space-between; 
+    
+  }
+
+  .footer__logo{
+    align-items: center;
+  }
+
+  #FootersDaSeta{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 16px;
+    padding-left: 16px;
+    height: 54px;
+    
+  }
+  .footer__institucional{
+    border-top: 1px solid #DDDDDD;
+    
+  }
+
+  .footer__ajuda{
+  
+    border-top: 1px solid #DDDDDD;
+    
+  }
+
+  
+  .footer__contato{
+    border-top: 1px solid #DDDDDD;
+    border-bottom: 1px solid #DDDDDD;
+    
+  }
+
+  .footer__logo{
+    margin: 0 auto;
+    margin-bottom: 30px;
+    
+  }
+
+
+  .footer__logo div{
+    margin-left:45px;
+    margin-top: 0;
+    padding-right: 8px;
+   
+    
+  }
+  
+  .footer__contato > img:nth-child(2){
+    margin-left: auto;
+  }
+  .footer__logo div img{
+    transform: scale(0.5);
+    padding-left: 19px;
+  }
+  .footer__pagamentos{
+    text-align: center;
+    padding-top:16px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 32px;
+  }
+  .footer__pagamentos img{
+    transform: scale(0.5);
+   
+    
+  }
+  .footer__topo h5{
+    display: none;
+    
+  }
+
+  .footer__topo span{
+    background-image: url(../public/image/setaazul.png);
+  }
+
+  .footer__copy p{
+    width: auto;
+    
+  }
+  .footer__parceiro{
+    margin-bottom: 0px;
+  }
+  
+  #SetaAzul{
+    display: block;
+    width: 12px;
+    height: 7.5px;
+  }
+  #FooterDireitosMobile{
+    display: block;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  #FooterDireitos{
+    display: none;
+  }
+
+  #LogoFooter{
+    transform-origin: initial; 
+    
+  }
+}
+
+
+/* footer copy*/
+
+/*especificidades*/
+section.banner__caneca:nth-child(12){
+  margin-top: 46px;
+}
+
+
+.carousel-control-prev,
+.carousel-control-next {
+  
+  opacity: 1 !important;       /* garante opacidade total */
+}
