@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" rel="stylesheet">
-   
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Avanti</title>
@@ -38,18 +38,140 @@
       </div>
       <div class="menu">
         <div class="menu__categorias  ">
-          <div class="menu__categorias__opcoes" onclick="AbrirHamburguer()"><img src="./public/image/hamburguermenu.png" alt="Menu"><span>Todas as categorias</span></div>
-          <div class="menu__categorias__opcoes__departamentos " id="Departamentos">
-            <div>Departamento</div>
-            <div>Departamento</div>
-            <div>Departamento</div>
-            <div>Departamento</div>
-            <div>Departamento</div>
-            <div>Departamento</div>
-            <div>Departamento</div>
-            <div>Departamento</div>
+          <div class="menu__categorias__opcoes" onclick="AbrirNavTodasCategorias()">
+            <div class="menu-hamburguer">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+            <span>Todas as categorias</span>
+          </div>
+          <div  class="menu__categorias__opcoes__departamentos " id="Departamentos">
+            <div onclick="AbrirNavDepartamento()">Departamento</div>
+            <div onclick="AbrirNavDepartamento()">Departamento</div>
+            <div onclick="AbrirNavDepartamento()">Departamento</div>
+            <div onclick="AbrirNavDepartamento()">Departamento</div>
+            <div onclick="AbrirNavDepartamento()">Departamento</div>
+            <div onclick="AbrirNavDepartamento()">Departamento</div>
+            <div onclick="AbrirNavDepartamento()">Departamento</div>
+            <div onclick="AbrirNavDepartamento()">Departamento</div>
           </div>
         </div>
+        <nav id="MenuTodasCategorias" class="menu__todascategorias">
+          <div class="menu__todascategorias__f">
+            <div class="menu__todascategorias__fora">
+              <ul  class="menu__todascategorias__departamentos">
+                <li>Departamento  <span class="seta-direita"></span></li>
+                <li>Departamento  <span class="seta-direita"></span></li>
+                <li>Departamento  <span class="seta-direita"></span></li>
+                <li>Departamento  <span class="seta-direita"></span></li>
+                <li>Departamento  <span class="seta-direita"></span></li>
+                <li>Departamento  <span class="seta-direita"></span></li>
+                <li>Departamento  <span class="seta-direita"></span></li>
+                <li>Departamento  <span class="seta-direita"></span></li>
+                <li>Departamento  <span class="seta-direita"></span></li>
+                <li>Departamento  <span class="seta-direita"></span></li>
+                <li>Departamento  <span class="seta-direita"></span></li>
+                <li>Departamento  <span class="seta-direita"></span></li>
+                <li>Departamento  <span class="seta-direita"></span></li>
+                <li>Departamento  <span class="seta-direita"></span></li>  
+              </ul>
+            </div>
+          </div>
+          <div class="menu__todascategorias__categorias">
+            <ul  class="menu__todascategorias__categorias__coluna">
+              <li id="CategoriaUm">Categoria</li>
+              <li>Categoria</li>
+              <li>Categoria</li>
+              <li>Categoria</li>
+              <li>Categoria</li>
+              <li>Categoria</li>
+              <li>Categoria</li>
+              <li>Categoria</li>
+            </ul>  
+            <ul class="menu__todascategorias__categorias__coluna">
+              <li id="CategoriaUm">Categoria</li>
+              <li>Categoria</li>
+              <li>Categoria</li>
+              <li>Categoria</li>
+              <li>Categoria</li>
+              <li>Categoria</li>
+              <li>Categoria</li>
+              <li>Categoria</li>
+            </ul>
+            <ul class="menu__todascategorias__categorias__coluna">
+              <li id="CategoriaUm">Categoria</li>
+              <li>Categoria</li>
+              <li>Categoria</li>
+              <li>Categoria</li>
+              <li>Categoria</li>
+              <li>Categoria</li>
+              <li>Categoria</li>
+              <li>Categoria</li>
+            </ul>    
+          </div>
+          <div class="menu__todascategorias__ad">
+            <div class="menu__todascategorias__ad__imagem"> 
+              <div class="menu__todascategorias__ad__imagem__frase">
+                Confira os Produto 
+                <br> 
+                <span class="menu__todascategorias__ad__imagem__frase__span">
+                  Que acabaram De chegar
+                </span>
+              </div>
+              <div class="menu__todascategorias__ad__imagem__botao"><span>Ver todos</span></div>
+            </div>
+          </div>
+        </nav>
+        <nav id="MenuDepartamento" class="menu__departamento">
+          <div class="menu__departamento__categorias">
+            <h1>Departamento</h1>
+            <div class="menu__todascategorias__categorias">
+              <ul id="MenuTodascategoriasDepartamento" class="menu__todascategorias__categorias__coluna">
+                <li id="CategoriaUm">Categoria</li>
+                <li>Categoria</li>
+                <li>Categoria</li>
+                <li>Categoria</li>
+                <li>Categoria</li>
+                <li>Categoria</li>
+                <li>Categoria</li>
+                <li>Categoria</li>
+              </ul>  
+              <ul class="menu__todascategorias__categorias__coluna">
+                <li id="CategoriaUm">Categoria</li>
+                <li>Categoria</li>
+                <li>Categoria</li>
+                <li>Categoria</li>
+                <li>Categoria</li>
+                <li>Categoria</li>
+                <li>Categoria</li>
+                <li>Categoria</li>
+              </ul>
+              <ul class="menu__todascategorias__categorias__coluna">
+                <li id="CategoriaUm">Categoria</li>
+                <li>Categoria</li>
+                <li>Categoria</li>
+                <li>Categoria</li>
+                <li>Categoria</li>
+                <li>Categoria</li>
+                <li>Categoria</li>
+                <li>Categoria</li>
+              </ul>    
+            </div>
+          </div>
+          <div id="AdDepartamentoCategoria" class="menu__todascategorias__ad">
+            <div class="menu__todascategorias__ad__imagem"> 
+              <div class="menu__todascategorias__ad__imagem__frase">
+                Confira os Produto 
+                <br> 
+                <span class="menu__todascategorias__ad__imagem__frase__span">
+                  Que acabaram De chegar
+                </span>
+              </div>
+              <div class="menu__todascategorias__ad__imagem__botao"><span>Ver todos</span></div>
+            </div>
+          </div>
+        </nav>   
       </div>
     </section>
     <section class="home__mobile">

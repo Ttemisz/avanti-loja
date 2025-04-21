@@ -1,9 +1,26 @@
-function AbrirHamburguer() {
-    var Departamento = document.getElementById("Departamentos");
+var NavTodasCategorias = document.getElementById("MenuTodasCategorias");
 
-    if (Departamento.style.display === "flex") {
-        Departamento.style.display = "none";
+var NavMenuDepartamento = document.getElementById("MenuDepartamento");
+
+function AbrirNavTodasCategorias() {
+
+  NavMenuDepartamento.style.display = "none";
+    
+    if (NavTodasCategorias.style.display === "flex") {
+      NavTodasCategorias.style.display = "none";
+
       } else {
-        Departamento.style.display = "flex";
+        NavTodasCategorias.style.display = "flex";
       }
+}
+
+function AbrirNavDepartamento() {
+  
+  NavTodasCategorias.style.display = "none";
+  
+  if (NavMenuDepartamento.style.display === "flex") {
+    NavMenuDepartamento.style.display = "none";
+    } else {
+      NavMenuDepartamento.style.display = "flex";
+    }
 }
