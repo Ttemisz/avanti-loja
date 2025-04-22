@@ -22,10 +22,11 @@
         <div class="home__navbar__pesquisa d-flex">
             <img class="home__navbar__pesquisa__logo" src="./public/image/AVANTI.png"  alt="AVANTI">
           <div class="home__navbar__procurar ">
-            <div>Digite oque voce procura</div>
-            <img src="./public/image/ lupa.png" alt="lupa">
+            <input type="text" id="inputBusca" placeholder="Digite o que voce procura" />
+            <img onclick="realizarBusca()" src="./public/image/ lupa.png" alt="lupa" />
           </div>
         </div>
+        <p id="resultadoBusca"></p>
         <div class="home__navbar__carrinho ">
           <div class="home__navbar__carrinho__usuario">
             <img src="./public/image/usuarioblue.png" alt="carrinho">
@@ -185,11 +186,13 @@
       </div>
     </div> 
     <div class="home__navbar__pesquisa d-flex">
-      <div class="home__navbar__procurar ">
-        <div>Digite aqui o que você procura</div>
-        <img src="./public/image/ lupa.png" alt="lupa">
-      </div>
-    </div>  
+        <div class="home__navbar__procurar ">
+          <input type="text" id="inputdaBusca" placeholder="Digite o que voce procura" />
+          <img onclick="realizardaBusca()" src="./public/image/ lupa.png" alt="lupa" />
+        </div>
+    </div>
+    <p id="resultadodaBusca"></p>
+ 
     </section>
     <section class="carrocel">
       <div id="carouselExampleInterval" class="carousel slide " data-bs-ride="carousel">
