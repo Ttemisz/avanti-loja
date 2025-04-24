@@ -1767,7 +1767,7 @@ height: 30px;
 }
 
 #inputBusca{
- max-width: 530px;
+ width: 530px;
  margin-left: 24px;
  border: none;
  outline: none;
